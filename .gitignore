@@ -4,3 +4,7 @@ __pycache__/
 .env
 *.log
 data/raw/
+.vscode/
+.idea/
+.DS_Store
+.pytest_cache/

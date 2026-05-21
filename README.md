@@ -1,4 +1,4 @@
-﻿# Hypertension Analytics — Zion Data Center
+# Hypertension Analytics — Zion Data Center
 
 A consulting-grade Python analysis of 350 hypertension patients from the Zion Data Center, covering data profiling, cleaning, feature engineering, exploratory data analysis, statistical testing, and clinical recommendations.
 
@@ -20,11 +20,11 @@ A consulting-grade Python analysis of 350 hypertension patients from the Zion Da
 | 7 | Recommendations |
 
 ## How to Run
-\\\ash
+```bash
 pip install -r requirements.txt
 jupyter notebook hypertension_analysis.ipynb
-\\\
+```
 
 ## Author
 Topaz — Data & Operations Analyst
-Portfolio: [github.com/YOUR_USERNAME/hypertension-analytics](https://github.com/YOUR_USERNAME/hypertension-analytics)
+Portfolio: github.com/YOUR_USERNAME/hypertension-analytics
