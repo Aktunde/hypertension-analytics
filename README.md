@@ -93,7 +93,8 @@ Python 3.14 | pandas | numpy | matplotlib | seaborn | scipy | scikit-learn | Jup
 ## Author
 
 **Topaz** — Data & Operations Analyst  
-Portfolio project: Hypertension Analytics — Zion Data Center | May 2026
+Portfolio: [github.com/Aktunde/hypertension-analytics](https://github.com/Aktunde/hypertension-analytics)  
+May 2026
 
 ---
 
