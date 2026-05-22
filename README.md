@@ -1,20 +1,19 @@
-# Hypertension Analytics — Zion Data Center
+# Hypertension_Cardiology_Center_Dataset_ Analytics 
 
-A consulting-grade Python analysis of 350 hypertension patients from the Zion Data Center, addressing two clinical problem statements using data profiling, cleaning, feature engineering, EDA, statistical testing, logistic regression modelling, and clinical recommendations.
+A consulting-grade Python analysis of 350 hypertension patients from the Hypertension_Cardiology Data Center, addressing two clinical problem statements using data profiling, cleaning, feature engineering, EDA, statistical testing, logistic regression modelling, and clinical recommendations.
 
----
 
-## Problem Statements
 
-**PS1 — BP Control Failure Prediction**
+Problem Statements
+
+PS1 — BP Control Failure Prediction**
 > "What predicts BP control failure at 3 months, and can we identify high-risk patients at the point of prescription?"
 
-**PS2 — Drug Class Effectiveness by Comorbidity Profile**
+PS2 — Drug Class Effectiveness by Comorbidity Profile**
 > "Which antihypertensive drug class delivers the best outcomes for patients with specific comorbidity profiles?"
 
----
 
-## Key Findings
+Key Findings
 
 | Metric | Value |
 |---|---|
@@ -27,9 +26,8 @@ A consulting-grade Python analysis of 350 hypertension patients from the Zion Da
 | PS1 model | Logistic regression, prescription-time features only |
 | PS2 outcome | Drug class effectiveness varies by comorbidity profile |
 
----
 
-## Recommendations Summary
+Recommendations Summary
 
 1. **PS1 — Deploy prescription-time risk screening** (6-point score → Red/Amber/Green protocols)
 2. **PS2 — Comorbidity-guided prescribing** (ACE/ARB for DM, CKD, DM+CKD)
@@ -37,9 +35,8 @@ A consulting-grade Python analysis of 350 hypertension patients from the Zion Da
 4. **Shorten follow-up** for Very High Risk patients (4–6 weeks vs 3 months)
 5. **Data quality improvements** — add smoking, BMI, blood test fields
 
----
 
-## Notebook Structure
+Notebook Structure
 
 | Phase | Description | Key Output |
 |---|---|---|
@@ -98,4 +95,7 @@ May 2026
 
 ---
 
-*Note: Raw data files are excluded from this repository (.gitignore). The notebook is fully reproducible when data files are placed in `data/raw/`.*
+*Note: The notebook is fully reproducible when data files are placed in `data/raw/`.*
+
+Dataset link:
+https://docs.google.com/spreadsheets/d/1iopUTgsIkg9x8G-4CTSSKj34wMBdjypR/edit?usp=sharing&ouid=112336321426427042959&rtpof=true&sd=true
