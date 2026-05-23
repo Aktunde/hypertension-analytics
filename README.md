@@ -2,18 +2,18 @@
 
 A consulting-grade Python analysis of 350 hypertension patients from the Hypertension_Cardiology Data Center, addressing two clinical problem statements using data profiling, cleaning, feature engineering, EDA, statistical testing, logistic regression modelling, and clinical recommendations.
 
+---
 
-
-Problem Statements
+### Problem Statements
 
 PS1 — BP Control Failure Prediction**
 > "What predicts BP control failure at 3 months, and can we identify high-risk patients at the point of prescription?"
 
 PS2 — Drug Class Effectiveness by Comorbidity Profile**
 > "Which antihypertensive drug class delivers the best outcomes for patients with specific comorbidity profiles?"
+---
 
-
-Key Findings
+### Key Findings
 
 | Metric | Value |
 |---|---|
@@ -26,8 +26,8 @@ Key Findings
 | PS1 model | Logistic regression, prescription-time features only |
 | PS2 outcome | Drug class effectiveness varies by comorbidity profile |
 
-
-Recommendations Summary
+---
+### Recommendations Summary
 
 1. **PS1 — Deploy prescription-time risk screening** (6-point score → Red/Amber/Green protocols)
 2. **PS2 — Comorbidity-guided prescribing** (ACE/ARB for DM, CKD, DM+CKD)
@@ -35,8 +35,8 @@ Recommendations Summary
 4. **Shorten follow-up** for Very High Risk patients (4–6 weeks vs 3 months)
 5. **Data quality improvements** — add smoking, BMI, blood test fields
 
-
-Notebook Structure
+---
+### Notebook Structure
 
 | Phase | Description | Key Output |
 |---|---|---|
